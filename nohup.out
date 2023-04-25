@@ -1,0 +1,344 @@
+
+Execution of 2 workers started at 2023-04-25T05:32:40.034Z
+
+[0-0] RUNNING in chrome - file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/test/specs/TestDisabledAccount.js
+[0-0] 2023-04-25T05:32:43.798Z ERROR @wdio/utils:shim: Error [ERR_REQUIRE_ESM]: require() of ES Module C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\node_modules\expect-webdriverio\lib\index.js from C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js not supported.
+[0-0] Instead change the require of index.js in C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js to a dynamic import() which is available in all CommonJS modules.
+[0-0]     at Object.newLoader [as .js] (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\node_modules\pirates\lib\index.js:141:7)
+[0-0]     at Object.before (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js:223:5)
+[0-0]     at file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:31:27
+[0-0]     at new Promise (<anonymous>)
+[0-0]     at file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:28:47
+[0-0]     at Array.map (<anonymous>)
+[0-0]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:28:33)
+[0-0]     at Runner.run (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/runner/build/index.js:88:15)
+[0-0] The file exists!
+[0-0] 2023-04-25T05:32:48.771Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.779Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.785Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.792Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.801Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-0]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-0]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-0]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-0]     at Object.beforeTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:245:5)
+[0-0]     at async Promise.all (index 0)
+[0-0]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-0]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:38:41)
+[0-0] Error in "BeforeTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.815Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.818Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.820Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.824Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.826Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.828Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.830Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.835Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.836Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.839Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.841Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.843Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0] 2023-04-25T05:32:48.843Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-0] from unknown error: web view not found
+[0-0]   (Session info: chrome=112.0.5615.122)
+[0-0]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-0]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-0]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-0]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-0]     at Object.afterTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:275:7)
+[0-0]     at async Promise.all (index 0)
+[0-0]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-0]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:60:40)
+[0-0] Error in "AfterTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-0] no such window in "Test disabled account.Verify account disable"
+no such window: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+    at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestDisabledAccount.js:24:5)
+[0-0] FAILED in chrome - file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/test/specs/TestDisabledAccount.js
+[0-1] RUNNING in chrome - file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/test/specs/TestLogin.js
+[0-1] 2023-04-25T05:32:51.113Z ERROR @wdio/utils:shim: Error [ERR_REQUIRE_ESM]: require() of ES Module C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\node_modules\expect-webdriverio\lib\index.js from C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js not supported.
+[0-1] Instead change the require of index.js in C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js to a dynamic import() which is available in all CommonJS modules.
+[0-1]     at Object.newLoader [as .js] (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\node_modules\pirates\lib\index.js:141:7)
+[0-1]     at Object.before (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\wdio.conf.js:223:5)
+[0-1]     at file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:31:27
+[0-1]     at new Promise (<anonymous>)
+[0-1]     at file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:28:47
+[0-1]     at Array.map (<anonymous>)
+[0-1]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:28:33)
+[0-1]     at Runner.run (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/runner/build/index.js:88:15)
+[0-1] The file exists!
+[0-1] 2023-04-25T05:32:53.652Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.662Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.665Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.668Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.675Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-1]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-1]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-1]     at Object.beforeTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:245:5)
+[0-1]     at async Promise.all (index 0)
+[0-1]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-1]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:38:41)
+[0-1] Error in "BeforeTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.688Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.691Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.695Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.698Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.703Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.705Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.708Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.713Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.715Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.717Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.719Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.721Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.721Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-1]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-1]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-1]     at Object.afterTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:275:7)
+[0-1]     at async Promise.all (index 0)
+[0-1]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-1]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:60:40)
+[0-1] Error in "AfterTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-1] no such window in "Test Login Espn.1 Validate create account and log out"
+no such window: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+    at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestLogin.js:25:5)
+[0-1] 2023-04-25T05:32:53.725Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.728Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.730Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.731Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.732Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-1]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-1]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-1]     at Object.beforeTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:245:5)
+[0-1]     at async Promise.all (index 0)
+[0-1]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-1]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:38:41)
+[0-1] Error in "BeforeTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.737Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.741Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.744Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.746Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.748Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.750Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.751Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.754Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.755Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.757Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.759Z WARN webdriver: Request failed with status 404 due to no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.761Z ERROR webdriver: Request failed with status 404 due to no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1] 2023-04-25T05:32:53.762Z ERROR @wdio/utils:shim: no such window: no such window: target window already closed
+[0-1] from unknown error: web view not found
+[0-1]   (Session info: chrome=112.0.5615.122)
+[0-1]     at getErrorFromResponseBody (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/utils.js:194:12)
+[0-1]     at NodeJSRequest._request (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/webdriver/build/request/index.js:164:23)
+[0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[0-1]     at Browser.wrapCommandFn (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:72:29)
+[0-1]     at Object.afterTest (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\/wdio.conf.js:275:7)
+[0-1]     at async Promise.all (index 0)
+[0-1]     at executeHooksWithArgsShim (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/shim.js:50:20)
+[0-1]     at Context.testFrameworkFnWrapper (file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:60:40)
+[0-1] Error in "AfterTest Hook"
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[0-1] no such window in "Test Login Espn.Verify login in page"
+no such window: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+    at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestLogin.js:45:5)
+[0-1] FAILED in chrome - file:///C:/Users/Richard/IdeaProjects/Espn_Webdriver.io/test/specs/TestLogin.js
+Report successfully generated to allure-report
+Allure report successfully generated
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 112.0.5615.122 windows #0-0] Running: chrome (v112.0.5615.122) on windows
+[chrome 112.0.5615.122 windows #0-0] Session ID: 22bfb0e4f6727bed39e5fc5982fa6c57
+[chrome 112.0.5615.122 windows #0-0]
+[chrome 112.0.5615.122 windows #0-0] » \test\specs\TestDisabledAccount.js
+[chrome 112.0.5615.122 windows #0-0] Test disabled account
+[chrome 112.0.5615.122 windows #0-0]    ✖ Verify account disable
+[chrome 112.0.5615.122 windows #0-0]
+[chrome 112.0.5615.122 windows #0-0] 1 failing (5.1s)
+[chrome 112.0.5615.122 windows #0-0]
+[chrome 112.0.5615.122 windows #0-0] 1) Test disabled account Verify account disable
+[chrome 112.0.5615.122 windows #0-0] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-0] no such window: no such window: target window already closed
+[chrome 112.0.5615.122 windows #0-0] from unknown error: web view not found
+[chrome 112.0.5615.122 windows #0-0]   (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-0]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[chrome 112.0.5615.122 windows #0-0]     at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+[chrome 112.0.5615.122 windows #0-0]     at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestDisabledAccount.js:24:5)
+------------------------------------------------------------------
+[chrome 112.0.5615.122 windows #0-1] Running: chrome (v112.0.5615.122) on windows
+[chrome 112.0.5615.122 windows #0-1] Session ID: 4ff624b5aa64ead20c69762fac63b550
+[chrome 112.0.5615.122 windows #0-1]
+[chrome 112.0.5615.122 windows #0-1] » \test\specs\TestLogin.js
+[chrome 112.0.5615.122 windows #0-1] Test Login Espn
+[chrome 112.0.5615.122 windows #0-1]    ✖ 1 Validate create account and log out
+[chrome 112.0.5615.122 windows #0-1]    ✖ Verify login in page
+[chrome 112.0.5615.122 windows #0-1]
+[chrome 112.0.5615.122 windows #0-1] 2 failing (2.8s)
+[chrome 112.0.5615.122 windows #0-1]
+[chrome 112.0.5615.122 windows #0-1] 1) Test Login Espn 1 Validate create account and log out
+[chrome 112.0.5615.122 windows #0-1] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-1] no such window: no such window: target window already closed
+[chrome 112.0.5615.122 windows #0-1] from unknown error: web view not found
+[chrome 112.0.5615.122 windows #0-1]   (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[chrome 112.0.5615.122 windows #0-1]     at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+[chrome 112.0.5615.122 windows #0-1]     at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestLogin.js:25:5)
+[chrome 112.0.5615.122 windows #0-1]
+[chrome 112.0.5615.122 windows #0-1] 2) Test Login Espn Verify login in page
+[chrome 112.0.5615.122 windows #0-1] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-1] no such window: no such window: target window already closed
+[chrome 112.0.5615.122 windows #0-1] from unknown error: web view not found
+[chrome 112.0.5615.122 windows #0-1]   (Session info: chrome=112.0.5615.122)
+[chrome 112.0.5615.122 windows #0-1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[chrome 112.0.5615.122 windows #0-1]     at HomePage.goMenuLogin (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\pageObjects\/HomePage.js:19:33)
+[chrome 112.0.5615.122 windows #0-1]     at Context.<anonymous> (C:\Users\Richard\IdeaProjects\Espn_Webdriver.io\test\specs\/TestLogin.js:45:5)
+
+
+Spec Files:	 0 passed, 2 failed, 2 total (100% completed) in 00:00:16 
+
